@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buld</title>
+    <style>
+     img{
+        margin-top:50px;
+        margin-left:450px ;
+        text-align: center;
+        right:30px;
+     }
+    </style>
+</head>
+<body>
+    <img src="./light_bulb_off.png" alt="light_bulb_off" id="bulb" onclick="change2()" ondblclick="change()" width="500px" height="500px"/>
+    <script>
+     function change(){
+        document.getElementById("bulb").src="./light_bulb_off.png"
+     }
+     function change2(){
+        document.getElementById("bulb").src="./light_bulb_on.png"
+     }
+    </script>
+</body>
+</html>
